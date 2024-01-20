@@ -1,0 +1,36 @@
+---
+title: "NPS_dognuts"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{NPS_dognuts}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(SatysfiRe)
+```
+
+
+## NPS Dognuts
+
+
+Permet d'afficher un dognuts représentant le nps
+Input : vector (score NPS)
+Output : Dognuts Repartition score NPS
+
+```{r}
+
+
+
+NPS_Dognuts(c(1,2,10,4,3,6,7,8))
+
+```
+
